@@ -1,0 +1,209 @@
+<html>
+  <head>
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        #header{
+            background-color: #02201d;
+            width: 100%;
+            height: 100vh;
+        }
+        #logo, #navbar{
+            
+            
+            margin: 40px;
+            display: inline-block;
+            color: aliceblue;
+            text-transform: capitalize;
+            font-size: 20px;
+            width: 40%;
+        }
+        li{
+            color: white;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+        }
+        a:hover{
+            color: blueviolet;
+            text-decoration: underline;
+        }
+        .home{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+       h2{
+        font-size:25px;
+        color: antiquewhite;
+        text-transform:capitalize ;
+        text-align: center;
+       } 
+       h4{
+        font-size:15px;
+        color: antiquewhite;
+        text-transform:capitalize ;
+        text-align: center;
+       } 
+       h2{
+        font-size:15px;
+        color: antiquewhite;
+        text-transform:capitalize ;
+        text-align: center;
+       }
+       p{
+        font-size:10px;
+        color: antiquewhite;
+        margin-left: 200px;
+        
+       } 
+       .social-media{
+        text-align: center;
+       }
+       .about{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        background-color: #516160;
+       }
+       .about-img img{
+        width: 35vw;
+       }
+    .about-content h2{text-align: left;
+        text-align: center;
+        font-size: 3rem;
+        gap: 0.5px;
+    }
+    .about-content h3{
+        font-size: 2rem;
+        color: aliceblue;
+    }
+    .services h2{
+        margin-bottom: 5rem;
+        font-size: 20px;
+    }
+    .services-container{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .Services-container .services-box{
+        flex: 1 1 30rem;
+        background-color: #02201d;
+        padding: 3rem 2rem 4rem;
+        border-radius: 2rem;
+        text-align: center;
+        border: 2rem solid rgb(11, 129, 129);
+    }
+  .button{
+    background-color:aqua;
+    border: none;
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+   }
+   .button1{
+border-radius: 12px;
+
+   }
+    </style>
+</head>
+<body>
+    <div id="header">
+    
+<div id="logo" style="text-align: center;">Naveen Vaddemani</div>
+   <div id="navbar">     
+       
+    <a href="#home">Home</a>
+     <a href="#about">About</a>  
+     <a href="#services">Sevices</a>  
+     <a href="#Portfolio">Portfolio</a>
+     <a href="#Contact">Contact</a>
+     
+  </div>
+  <section class="home" id="home">
+  <div class="introduction">
+   <h4 >Hey, it's me</h4>
+    <h2>Vaddemani Naveen Kumar Reddy</h2>
+    <h4>and i'm a <span style="color: rgb(73, 137, 137);">frontend developer</span></h4>
+   <p> Gain the knowledge and skills needed to land an entry-level job in Data Analytics.
+     Get training from leading experts at Google, using industry standard tools and techniques.
+    </p>
+    <div class="social-media">
+        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+        <a href="#"><i class='bx bxl-twitter' ></i></a>  
+        <a href="#"><i class='bx bxl-instagram-alt' ></i></a>  
+        <a href="#"><i class='bx bxl-linkedin-square' ></i></a> <br> 
+    
+    <a  class="button button1">Download Cv</a>
+</div>
+ </div>
+ <div class="img">
+    <img style="clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);width: 30%; " src="image 3.jpg">
+ </div>
+</section>
+<section class="about" id="about">
+    <div class="about-img">
+        <img style="width: 40%;clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);" src="image4">
+    </div>
+    <div class="about-content">
+        <h2 >About<span style="color: aqua;">Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p style="font-size: 1rem ; margin: 1.5rem 0 2rem;gap:0.5rem;">Lorem as a front-end developer, the question “Tell me about yourself” can be a daunting one during an interview. It's a broad question that can be difficult to answer, especially if you're not sure where to start. However, it's also an opportunity to make a strong first impression and showcase your skills and experience.
+            WordPress, Drupal CMS, MailChimp, Exact Target, Aweber, Benchmark With jobs projected to grow at above-average rates for years to come, it's a great time to be a front-end developer. But this doesn't mean landing a job as a front-end developer is simple.
+        </p>
+        <a class="button button1">Read more</a>
+    </div>
+</section>
+<section class="sevices"  id="services" style="background-color: rgb(2, 32, 32);">
+    <h2 style="background-color: #3b543c; font-size: 20px;">Our<span style="color: aqua;"> Services</span></h2>
+    <div class="Services-container">
+        <div class="sevices-box" style="width: 30%; border: 2px solid aqua;">
+            <i  style="color: rgb(97, 237, 160);"class='bx bx-code-block'></i>
+            <h3 style="color: yellow;">Web Development</h3>
+            <p style="margin-left: 10%;margin-bottom: 10%;">WordPress, Drupal CMS, MailChimp, Exact Target, Aweber, Benchmark With jobs projected to grow at above-average rates for years to come, it's a great time to be a front-end developer. But this doesn't mean landing a job as a front-end developer is simple.</p>
+            <a class="button button1">Read more</a>
+        </div>
+         <div class="sevices-box" style="width: 30%; border: 2px solid aqua">
+                   <i  style="color: rgb(97, 237, 160);"class='bx bxs-paint' ></i>
+                    <h3 style="color: yellow;">Graphic Design</h3>
+                    <p style="margin-left: 10%;margin-bottom: 10%;">WordPress, Drupal CMS, MailChimp, Exact Target, Aweber, Benchmark With jobs projected to grow at above-average rates for years to come, it's a great time to be a front-end developer. But this doesn't mean landing a job as a front-end developer is simple.</p>
+                    <a class="button button1">Read more</a>
+                </div>
+             
+                <div class="sevices-box" style="width: 30%; border: 2px solid aqua;">
+                    <i  style="color: rgb(97, 237, 160);"class='bx bxs-bar-chart-square'></i>
+                        <h3 style="color: yellow;">Digital Marketing</h3>
+                        <p style="margin-left: 10%; margin-bottom: 10%;">WordPress, Drupal CMS, MailChimp, Exact Target, Aweber, Benchmark With jobs projected to grow at above-average rates for years to come, it's a great time to be a front-end developer. But this doesn't mean landing a job as a front-end developer is simple.</p>
+                <a class="button button1">Read more</a>
+                    </div>
+    </div>
+</section>
+
+<section class="Contact" id="Contact"    style="background-color: #02201d;">
+    <h2 style="font-size: 30px;"> Contact<span style="color: aqua;"> Me!</span></h2>
+    <form action="#">
+        <div class="input-box" style="text-align: center;">
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Email Address">
+        </div>
+        <div class="input-box" style="text-align: center;">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+           <div class="input-box" style="text-align: center;">
+            <textarea     name=""  id="" cols="30" rows="10" placeholder="'your Message"></textarea><br>
+            <input style="background-color: aqua;"    type="submit" placeholder="send me" class="btn">
+    </form>
+</section>
+</div> 
+</body>  
+</html>
